@@ -23,3 +23,23 @@ Para cada caso imprimir el resultado en pantalla.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+print("Por favor, ingrese a continuacion 3 numeros para analizar si son pares o impares:")
+numero_1 = int(input('Ingrese el primer número:\n'))
+numero_2 = int(input('Ingrese el segundo número:\n'))
+numero_3 = int(input('Ingrese el tercer número:\n'))
+
+if numero_1 % 2 == 0: # Utilizo el % para conocer el resto de la division. en este caso si el resto es 0, se que es par.
+    print(f"El número {numero_1} es par.")
+else:
+    print(f"El número {numero_1} es impar.")
+
+if numero_2 % 2 == 0:
+    print(f"El número {numero_2} es par.")
+else:
+    print(f"El número {numero_2} es impar.")
+
+if numero_3 % 2 == 0:
+    print(f"El número {numero_3} es par.")
+else:
+    print(f"El número {numero_3} es impar.")
